@@ -1,3 +1,23 @@
 {
-    "python.linting.pylintEnabled": false
+    "python.linting.pylintEnabled": false,
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 14,
+    "editor.wordWrap": "on",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.log":true,
+        "**/.result":true,
+        "**/.temp":true,
+    },
+    "editor.mouseWheelZoom": true,
+    "editor.smoothScrolling": true,
+    "editor.tabCompletion": true,
+    "files.autoSaveDelay": 1000,
+    "debug.allowBreakpointsEverywhere": true,
+    "python.autoComplete.addBrackets": true,
+    "python.autoComplete.showAdvancedMembers": true
 }
