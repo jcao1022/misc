@@ -1,0 +1,234 @@
+* { box-sizing: border-box;}
+
+h1 {color: #000000;}
+
+.head_subtitle {color: white;}
+
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+.hleft {
+    float: left;
+    width: 10%;
+}
+.hmid {
+    float: left;
+    width: 60%;
+    background-color: #3e8e41;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 5px;
+}
+
+.hright {
+    float: right;
+    width: 10%;
+    /*background-color: white;*/
+    /*padding-left: 0px;*/
+}
+/*##################################################################*/
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: white;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 10px;
+    text-align: left;
+    background: white;
+}
+
+.header h1 { font-size: 20px; }
+/*#################################################################################*/
+/* Style the top navigation bar */
+.topnavleft {
+    overflow: hidden;
+    background-color: #26004d;
+    width: 80%;
+}
+
+/* Style the topnav links */
+.topnavleft a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 35px;
+    text-decoration: none;
+}
+
+ /*Change color on hover*/
+.topnavleft a:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+/*!* Style the top navigation bar *!*/
+.topnavwight {
+    overflow: hidden;
+    /*background-color: #333;*/
+    width: 20%;
+}
+
+/* Style the topnav links */
+.topnavright a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnavright a:hover {
+    background-color: #f44336;
+    color: white;
+}
+/*#################################################################################*/
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 80%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 20%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: white;
+    width: 100%;
+    padding: 0px;
+}
+
+/* Add a card effect for articles */
+.about {
+    background-color: greenyellow;
+    padding: 20px;
+    margin-top: 20px;
+}
+.popular {
+    background-color: greenyellow;
+    padding: 20px;
+    margin-top: 20px;
+}
+.category {
+    background-color: greenyellow;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 0px;
+    text-align: center;
+    background: #3333;
+    margin-top: 0px;
+}
+
+/*!* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other *!*/
+/*@media screen and (max-width: 1000px) {*/
+    /*.leftcolumn, .rightcolumn {*/
+        /*width: 100%;*/
+        /*padding: 0;*/
+    /*}*/
+/*}*/
+
+/*!* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other *!*/
+/*@media screen and (max-width: 500px) {*/
+    /*.topnavleft a {*/
+        /*float: none;*/
+        /*width: 100%;*/
+    /*}*/
+/*}*/
+
+/*####################################################################################*/
+
+.category { width: 100%; height:auto; clear: both; overflow: hidden }
+.category h4 { line-height: 40px; color: white; font-size: 16px; border-bottom: 1px solid  #E6E6E6; height: 40px; }
+.category ul { margin: 20px 0 }
+.category ul li { list-style:none; line-height: 24px; height: 24px; display: block; background: #999; float: left; padding: 3px 11px; margin: 10px 10px 0 0; border-radius: 8px; -moz-transition: all 0.5s; -webkit-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
+.category ul li a { color: #FFF }
+.category ul li:nth-child(8n-1) { background: #8A9B0F }
+.category ul li:nth-child(8n-2) { background: #0063e3 }
+.category ul li:nth-child(8n-3) { background: #3FB8AF }
+.category ul li:nth-child(8n-4) { background: #0063e3 }
+.category ul li:nth-child(8n-5) { background: #FC9D9A }
+.category ul li:nth-child(8n-6) { background: #EDC951 }
+.category ul li:nth-child(8n-7) { background: #C8C8A9 }
+.category ul li:nth-child(8n-8) { background: #83AF9B }
+.category ul li:first-child { background: #036564 }
+.category ul li:last-child { background: #3299BB }
+.category ul li:hover { border-radius: 0; text-shadow: black 5px 5px 5px }
+
+
+.blogs { padding: 10px 0; position: relative; border-bottom: #CCC 1px solid; overflow: hidden }
+.blogs h4 { font-size: 16px; font-weight: bold; transition: all .5s; margin-bottom: 10px }
+.blogs h4 a { color: #474645; }
+.blogs h4 a:hover { color: red; text-decoration: underline }
+.blogs ul { float: right; line-height: 22px; width: 100%; color: #756F71;}
+.autor { overflow: hidden; clear: both; margin: 10px 0; display: inline-block; color: #838383; width: 100%;  }
+.autor span { margin: 0 10px 0 0; padding-left: 20px }
+.autor span a { color: #759b08; }
+.autor span a:hover { text-decoration: underline }
+.lm { background: url(images/newsbg01.png) no-repeat left center }
+.dtime { background: url(images/newsbg02.png) no-repeat left center }
+.viewnum { background: url(images/newsbg04.png) no-repeat left center }
+.pingl { background: url(images/newsbg03.png) no-repeat left center }
+.tit01 h3 { line-height: 40px; color: black; font-size: 18px; border-bottom: 1px solid #E6E6E6; height: 40px }
+
+/* 关注我样式 */
+.gzwm ul { width: 100%; margin: 0px 0; overflow: hidden }
+.gzwm li { list-style:none; width: 50px; margin: 0 10px 0 5px; float: left; }
+.gzwm li a { color: #747F8C; width: 52px; text-align: center; padding-top: 60px; float: left; }
+.gzwm .rss { background: url(images/ico_04_1.jpg) no-repeat scroll 0% 0% transparent; }
+.gzwm .rss:hover { color: #000; background: url(images/ico_04.png) no-repeat scroll 0% 0% transparent; }
+.gzwm .xlwb { background: url(images/ico_05_1.jpg) no-repeat scroll 0% 0% transparent; }
+.gzwm .xlwb:hover { color: #000; background: url(images/ico_05.png) no-repeat scroll 0% 0% transparent; }
+.gzwm .txwb { background: url(images/ico_06_1.jpg) no-repeat scroll 0% 0% transparent; }
+.gzwm .txwb:hover { color: #000; background: url(images/ico_06.png) no-repeat scroll 0% 0% transparent; }
+.gzwm .wx { background: url(images/ico_07_1.jpg) no-repeat scroll 0% 0% transparent; }
+.gzwm .wx:hover { color: #000; background: url(images/ico_07.png) no-repeat scroll 0% 0% transparent; }
+
+
+
+
+
+
+
+
+
+
+
