@@ -1,0 +1,16 @@
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin:30px 20px;
+}
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+
+
+
