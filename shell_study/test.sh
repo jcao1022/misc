@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 cd ~
 mkdir tmptest
 cd tmptest
